@@ -1,0 +1,19 @@
+version: '3.4'
+services:
+  eth2stats-client.public.dappnode.eth:
+    build:
+      context: ./build
+      args:
+        - VERSION
+    image: 'eth2stats-client.public.dappnode.eth:0.1.1'
+    restart: always
+    environment:
+      - NODE_NAME=
+      - BEACON_TYPE=prysm
+      - 'BEACON_ADDR=prysm-beacon-chain.public.dappnode:4000'
+      - 'BEACON_METRICS=http://prysm-beacon-chain.public.dappnode:8080/metrics'
+      - 'ADDR=grpc.topaz.eth2stats.io:443'
+    volumes:
+      - 'data:/data'
+volumes:
+  data: {}

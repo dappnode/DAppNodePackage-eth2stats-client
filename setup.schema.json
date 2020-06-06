@@ -1,0 +1,15 @@
+{
+  "description": "## Do you want to add your node to Eth2Stats.io?\n\nGreat! That's probably why you are here. You only need to follow this step:",
+  "type": "object",
+  "properties": {
+    "node_name": {
+      "type": "string",
+      "title": "Node name",
+      "description": "This will be the name with which your node will appear on [eth2stats.io](https://eth2stats.io)",
+      "default": "DAppNode"
+    }
+  },
+  "required": [
+    "node_name"
+  ]
+}

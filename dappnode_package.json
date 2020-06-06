@@ -1,0 +1,22 @@
+{
+  "name": "eth2stats-client.public.dappnode.eth",
+  "version": "0.1.1",
+  "description": "Ethereum 2.0 Network Stats and Monitoring - CLI Client. [eth2stats-client repository](https://github.com/Alethio/eth2stats-client)",
+  "shortDescription": "Stats collector for Eth2Stats Ethereum 2 Network Monitor",
+  "type": "service",
+  "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+  "categories": [
+    "Blockchain"
+  ],
+  "license": "GLP-3.0",
+  "links": {
+    "eth2stats": "https://eth2stats.io/topaz-testnet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client/issues"
+  }
+}
