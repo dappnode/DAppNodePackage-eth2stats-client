@@ -1,6 +1,6 @@
 {
   "name": "eth2stats-client.dnp.dappnode.eth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ethereum 2.0 Network Stats and Monitoring - CLI Client. [eth2stats-client repository](https://github.com/Alethio/eth2stats-client)",
   "shortDescription": "Stats collector for Eth2Stats Ethereum 2 Network Monitor",
   "type": "service",
@@ -12,12 +12,15 @@
   "links": {
     "eth2stats": "https://eth2stats.io/medalla-testnet"
   },
-  "architectures": ["amd64", "arm64"],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client.git"
+    "url": "https://github.com/dappnode/eth2stats-client.git"
   },
   "bugs": {
-    "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client/issues"
+    "url": "https://github.com/dappnode/eth2stats-client/issues"
   }
 }
