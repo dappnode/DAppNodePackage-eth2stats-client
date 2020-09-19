@@ -1,6 +1,6 @@
 {
-  "name": "eth2stats-client.public.dappnode.eth",
-  "version": "0.1.1",
+  "name": "eth2stats-client.dnp.dappnode.eth",
+  "version": "0.1.0",
   "description": "Ethereum 2.0 Network Stats and Monitoring - CLI Client. [eth2stats-client repository](https://github.com/Alethio/eth2stats-client)",
   "shortDescription": "Stats collector for Eth2Stats Ethereum 2 Network Monitor",
   "type": "service",
@@ -10,8 +10,9 @@
   ],
   "license": "GLP-3.0",
   "links": {
-    "eth2stats": "https://eth2stats.io/topaz-testnet"
+    "eth2stats": "https://eth2stats.io/medalla-testnet"
   },
+  "architectures": ["amd64", "arm64"],
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client.git"

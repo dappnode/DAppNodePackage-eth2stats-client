@@ -1,0 +1,21 @@
+version: "2"
+fields:
+  - id: node_name
+    target: 
+      type: environment
+      name: NODE_NAME
+    title: Node name
+    description: >-
+      This will be the name with which your node will appear on [eth2stats.io](https://eth2stats.io)
+    required: true
+  - id: beacon_type
+    target: 
+      type: environment
+      name: BEACON_TYPE
+    title: Beacon chain client
+    description: >-
+      The beacon chain client that you want to connect to eth2stats
+    required: true
+    enum: 
+      - prysm
+      - lighthouse

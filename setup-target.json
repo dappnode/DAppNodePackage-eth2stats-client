@@ -1,6 +1,0 @@
-{
-  "node_name": {
-    "type": "environment",
-    "name": "NODE_NAME"
-  }
-}
