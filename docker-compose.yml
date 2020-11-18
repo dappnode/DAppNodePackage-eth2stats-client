@@ -10,9 +10,9 @@ services:
     environment:
       - NODE_NAME=DAppNode
       - BEACON_TYPE=prysm
-      - 'BEACON_ADDR=prysm-medalla-beacon-chain.dappnode:4000'
-      - 'BEACON_METRICS=http://prysm-medalla-beacon-chain.dappnode:8080/metrics'
-      - 'ADDR=grpc.medalla.eth2stats.io:443'
+      - BEACON_ADDR=prysm-medalla-beacon-chain.dappnode:4000
+      - BEACON_METRICS=http://prysm-medalla-beacon-chain.dappnode:8080/metrics
+      - ADDR=grpc.medalla.eth2stats.io:443
     volumes:
       - 'data:/data'
 volumes:
