@@ -4,7 +4,7 @@ services:
     build:
       context: ./build
       args:
-        - VERSION
+        - VERSION=v0.0.16
     image: 'eth2stats-client.dnp.dappnode.eth:0.1.0'
     restart: always
     environment:
