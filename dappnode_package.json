@@ -12,7 +12,7 @@
   "links": {
     "eth2stats": "https://eth2stats.io/medalla-testnet"
   },
-  "architectures": ["amd64", "arm64"],
+  "architectures": ["linux/amd64", "linux/arm64"],
   "repository": {
     "type": "git",
     "url": "https://github.com/dappnode/DAppNodePackage-eth2stats-client.git"
