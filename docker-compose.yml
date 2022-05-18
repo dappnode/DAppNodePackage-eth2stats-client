@@ -1,19 +1,19 @@
-version: '3.4'
+version: "3.4"
 services:
   eth2stats-client.dnp.dappnode.eth:
     build:
-      context: ./build
+      context: ./src
       args:
         - VERSION
-    image: 'eth2stats-client.dnp.dappnode.eth:0.1.0'
+    image: "eth2stats-client.dnp.dappnode.eth:0.1.0"
     restart: always
     environment:
       - NODE_NAME=DAppNode
       - BEACON_TYPE=prysm
-      - 'BEACON_ADDR=prysm-medalla-beacon-chain.dappnode:4000'
-      - 'BEACON_METRICS=http://prysm-medalla-beacon-chain.dappnode:8080/metrics'
-      - 'ADDR=grpc.medalla.eth2stats.io:443'
+      - "BEACON_ADDR=prysm-medalla-beacon-chain.dappnode:4000"
+      - "BEACON_METRICS=http://prysm-medalla-beacon-chain.dappnode:8080/metrics"
+      - "ADDR=grpc.medalla.eth2stats.io:443"
     volumes:
-      - 'data:/data'
+      - "data:/data"
 volumes:
   data: {}
